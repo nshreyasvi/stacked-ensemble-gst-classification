@@ -1,0 +1,10 @@
+if (Column18 <= 0.5) then class: 0 (proba: 100.0%) | based on 512,021 samples
+
+if (Column18 > 0.5) and (Column1 <= 395.5) and (Column17 <= 0.5) then class: 1 (proba: 82.55%) | based on 37,887 samples
+
+if (Column18 > 0.5) and (Column1 > 395.5) and (Column7 <= -0.016) then class: 1 (proba: 54.23%) | based on 20,258 samples
+
+if (Column18 > 0.5) and (Column1 <= 395.5) and (Column17 > 0.5) then class: 1 (proba: 95.79%) | based on 13,081 samples
+
+if (Column18 > 0.5) and (Column1 > 395.5) and (Column7 > -0.016) then class: 0 (proba: 86.86%) | based on 5,602 samples
+
