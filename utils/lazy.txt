@@ -1,0 +1,26 @@
+                               Accuracy  Balanced Accuracy  ROC AUC  F1 Score  Time Taken
+Model
+LinearDiscriminantAnalysis         0.96               0.98     0.98      0.97        1.88
+SGDClassifier                      0.97               0.96     0.96      0.97        2.52
+LGBMClassifier                     0.98               0.96     0.96      0.98        2.24
+SVC                                0.97               0.96     0.96      0.98     5951.60
+XGBClassifier                      0.98               0.96     0.96      0.98        4.30
+AdaBoostClassifier                 0.98               0.96     0.96      0.98       39.38
+NearestCentroid                    0.96               0.95     0.95      0.97        1.08
+RandomForestClassifier             0.98               0.95     0.95      0.98       62.20
+QuadraticDiscriminantAnalysis      0.96               0.95     0.95      0.96        1.59
+KNeighborsClassifier               0.97               0.94     0.94      0.97      121.77
+ExtraTreesClassifier               0.97               0.94     0.94      0.97       57.46
+LogisticRegression                 0.97               0.93     0.93      0.97        1.58
+BernoulliNB                        0.97               0.93     0.93      0.97        1.10
+GaussianNB                         0.96               0.93     0.93      0.96        1.28
+LinearSVC                          0.97               0.93     0.93      0.97      228.62
+BaggingClassifier                  0.97               0.93     0.93      0.97        9.49
+CalibratedClassifierCV             0.97               0.92     0.92      0.97       22.52
+Perceptron                         0.96               0.92     0.92      0.96        2.11
+DecisionTreeClassifier             0.97               0.91     0.91      0.97        1.94
+ExtraTreeClassifier                0.96               0.90     0.90      0.96        1.47
+RidgeClassifier                    0.97               0.89     0.89      0.97        1.37
+RidgeClassifierCV                  0.97               0.89     0.89      0.97        2.37
+PassiveAggressiveClassifier        0.92               0.71     0.71      0.91        1.72
+DummyClassifier                    0.91               0.50     0.50      0.86        0.79
