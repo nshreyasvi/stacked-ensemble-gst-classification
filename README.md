@@ -1,6 +1,8 @@
 ## Stacked-Ensemble GSTN Modeling and Classification
 The given submission is by **Shreyasvi Natraj** for the GSTN Hackathon on Predictive Modeling and Classification.
 
+**SHA256 Checksum: e0912cd03904e41f16d3da5a7d39565601e5950c0dc0376018677bf7c00d6769**
+
 ### Usage
 In order to use the scripts for training and prediction, please follow the following steps:
 - Install dependencies using `pip install -r requirements.txt`
@@ -13,7 +15,7 @@ The resultant accuracy over test data can be observed in the command prompt.
 
 ### Results
 
-The best trained stacked-ensemble model's results are described below:
+Here, the model was trained by splitting the training set 5-fold and 10-fold. The balanced accuracy across all the cross-validated splits is described below.
 
 #### Ensemble structure
 | Model                                     |   Weight |
@@ -54,6 +56,7 @@ An overview of the performance (measured in `logloss`) can be observed from the 
 ![alt text](utils/ldb_performance_boxplot.png)
 
 An elaborate `logloss` from each of the trained model can be observed below:
+
 | Model Name                                                                                             | Model Type     |   Log-Loss Value |
 |:-------------------------------------------------------------------------------------------------|:---------------|:---------------|
 | Ensemble_Stacked                                                  | Ensemble       |      0.0487711 |
