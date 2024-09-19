@@ -15,7 +15,7 @@ The resultant accuracy over test data can be observed in the command prompt.
 As a part of the project submission, we tested out the following machine learning models to obtain the final stacked ensemble machine learning model.
 
 | Model Name                                                                                             | Model Type     |   Log-Loss Value |
-|:-------------------------------------------------------------------------------------------------|:---------------|:--------------|---------------:|
+|:-------------------------------------------------------------------------------------------------|:---------------|:---------------|
 | Ensemble_Stacked                                                  | Ensemble       |      0.0487711 |
 | 1_Baseline                                                               | Baseline       |      0.312361  |
 | 2_DecisionTree                                                      | Decision Tree  |      0.0609345 |
