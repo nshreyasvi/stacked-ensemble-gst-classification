@@ -1,5 +1,5 @@
 ## Stacked-Ensemble GSTN Modeling and Classification
-The given submission is submission by **Shreyasvi Natraj** for the GSTN Hackathon on Predictive Modeling and Classification.
+The given submission is by **Shreyasvi Natraj** for the GSTN Hackathon on Predictive Modeling and Classification.
 
 ### Usage
 In order to use the scripts for training and prediction, please follow the following steps:
