@@ -48,11 +48,15 @@ Here, the model was trained by splitting the training set 5-fold and 10-fold. Th
 | Labeled as 0 |           700354 |            10746 |
 | Labeled as 1 |             6237 |            67796 |
 
+#### Confusion matrix (cross-validated across 5 and 10 fold splits of the training dataset)
+
+![alt text](utils/confusion_matrix.png)
 
 #### All Models Tested
 As a part of the project submission, we tested out several machine learning model achitechtures and performed vigurious feature engineering and iteration steps to obtain the final stacked ensemble machine learning model.
 
 An overview of the performance (measured in `logloss`) can be observed from the image as follows:
+
 ![alt text](utils/ldb_performance_boxplot.png)
 
 An elaborate `logloss` from each of the trained model can be observed below:
