@@ -12,6 +12,42 @@ In order to use the scripts for training and prediction, please follow the follo
 The resultant accuracy over test data can be observed in the command prompt.
 
 ### Results
+
+The best trained stacked-ensemble model's results are described below:
+
+#### Ensemble structure
+| Model                                     |   Weight |
+|:------------------------------------------|---------:|
+| 113_RandomForest_SelectedFeatures_Stacked |       54 |
+| 114_RandomForest_Stacked                  |       12 |
+| 115_ExtraTrees_SelectedFeatures_Stacked   |       14 |
+| 117_ExtraTrees_Stacked                    |       29 |
+| 22_LightGBM_KMeansFeatures                |       13 |
+| 23_LightGBM_KMeansFeatures                |        1 |
+| 25_LightGBM                               |       19 |
+| 52_ExtraTrees_Stacked                     |       40 |
+| Ensemble                                  |        1 |
+
+#### Metric details
+|           |     score |     threshold |
+|:----------|----------:|--------------:|
+| logloss   | 0.0487711 | nan           |
+| auc       | 0.994939  | nan           |
+| f1        | 0.890978  |   0.399357    |
+| accuracy  | 0.978369  |   0.560246    |
+| precision | 0.993911  |   0.971979    |
+| recall    | 1         |   7.03518e-08 |
+| mcc       | 0.881903  |   0.399357    |
+
+
+#### Confusion matrix (at threshold=0.560246)
+| |   Predicted as 0 |   Predicted as 1 |
+|:-------------|-----------------:|-----------------:|
+| Labeled as 0 |           700354 |            10746 |
+| Labeled as 1 |             6237 |            67796 |
+
+
+#### All Models Tested
 As a part of the project submission, we tested out the following machine learning models to obtain the final stacked ensemble machine learning model.
 
 | Model Name                                                                                             | Model Type     |   Log-Loss Value |
@@ -208,40 +244,6 @@ As a part of the project submission, we tested out the following machine learnin
 | 82_RandomForest_Stacked                                     | Random Forest  |      0.0488677 |
 | 87_NeuralNetwork_SelectedFeatures_Stacked | Neural Network |      0.0499196 |
 | 48_ExtraTrees_Stacked                                        | Extra Trees    |      0.0488159 |
-
-
-The best trained stacked-ensemble model's results are described below:
-
-#### Ensemble structure
-| Model                                     |   Weight |
-|:------------------------------------------|---------:|
-| 113_RandomForest_SelectedFeatures_Stacked |       54 |
-| 114_RandomForest_Stacked                  |       12 |
-| 115_ExtraTrees_SelectedFeatures_Stacked   |       14 |
-| 117_ExtraTrees_Stacked                    |       29 |
-| 22_LightGBM_KMeansFeatures                |       13 |
-| 23_LightGBM_KMeansFeatures                |        1 |
-| 25_LightGBM                               |       19 |
-| 52_ExtraTrees_Stacked                     |       40 |
-| Ensemble                                  |        1 |
-
-#### Metric details
-|           |     score |     threshold |
-|:----------|----------:|--------------:|
-| logloss   | 0.0487711 | nan           |
-| auc       | 0.994939  | nan           |
-| f1        | 0.890978  |   0.399357    |
-| accuracy  | 0.978369  |   0.560246    |
-| precision | 0.993911  |   0.971979    |
-| recall    | 1         |   7.03518e-08 |
-| mcc       | 0.881903  |   0.399357    |
-
-
-#### Confusion matrix (at threshold=0.560246)
-|   Predicted as 0 |   Predicted as 1 |
-|:-------------|-----------------:|-----------------:|
-| Labeled as 0 |           700354 |            10746 |
-| Labeled as 1 |             6237 |            67796 |
 
 
 ### Miscellaneous
