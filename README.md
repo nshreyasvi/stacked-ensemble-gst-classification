@@ -48,8 +48,12 @@ The best trained stacked-ensemble model's results are described below:
 
 
 #### All Models Tested
-As a part of the project submission, we tested out the following machine learning models to obtain the final stacked ensemble machine learning model.
+As a part of the project submission, we tested out several machine learning model achitechtures and performed vigurious feature engineering and iteration steps to obtain the final stacked ensemble machine learning model.
 
+An overview of the performance (measured in `logloss`) can be observed from the image as follows:
+![alt text](utils/ldb_performance_boxplot.png)
+
+An elaborate `logloss` from each of the trained model can be observed below:
 | Model Name                                                                                             | Model Type     |   Log-Loss Value |
 |:-------------------------------------------------------------------------------------------------|:---------------|:---------------|
 | Ensemble_Stacked                                                  | Ensemble       |      0.0487711 |
