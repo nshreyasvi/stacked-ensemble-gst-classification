@@ -1,7 +1,7 @@
 # Stacked-Ensemble GSTN Modeling and Classification
 The given submission is by **Shreyasvi Natraj** for the GSTN Hackathon on Predictive Modeling and Classification.
 
-**SHA256 Checksum: e0912cd03904e41f16d3da5a7d39565601e5950c0dc0376018677bf7c00d6769**
+**SHA256 Checksum: 0e28c59d2f2ee43ea6076b154bec03512bc0f5eb62c7217e17b3ef5a122bc162**
 
 ## Usage
 
@@ -11,12 +11,16 @@ In order to use the scripts for training and prediction, please follow the follo
 - Download the dataset (in `.csv` format) and add the `target` variable column into the column with `input` data i.e. combine the two `.csv` files so that the target is the first column and the inputs are the following columns.
 - Run training using `python train_automl.py`.
 - **Optional:** In order to train over the dataset where training and validation set are combined, follow steps 2 and run `python train_automl_merge_data.py`.
-- Once the model has been trained, you will obtain an `AutoML_1` folder.
+- Once the model has been trained, you will obtain an `AutoML_<Run Number>` folder.
 
 ### Prediction
 - Carry out prediction by changing the `trained_model_folder_path` in the `predict_automl.py` script as well as the CSV file to be used for prediction.
 - Run prediction script using `python predict_automl.py`
 The resultant accuracy over test data can be observed in the command prompt.
+
+The pretrained models that were used in the training and prediction can be downloaded from [this link](). 
+
+Make sure to extract the zip and place the two models `AutoML_small` (trained only over the training set) and `AutoML_full` (trained over the combined training and validation set) in the cloned folder and add the specific model you want to test in the `trained_model_folder_path` in `predict_automl.py` script.
 
 ## Results
 
