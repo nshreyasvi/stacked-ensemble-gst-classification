@@ -1,7 +1,7 @@
 # Stacked-Ensemble GSTN Modeling and Classification
 The given submission is by **Shreyasvi Natraj** for the GSTN Hackathon on Predictive Modeling and Classification.
 
-**SHA256 Checksum: 0e28c59d2f2ee43ea6076b154bec03512bc0f5eb62c7217e17b3ef5a122bc162**
+**SHA256 Checksum for uploaded Zip file: 0e28c59d2f2ee43ea6076b154bec03512bc0f5eb62c7217e17b3ef5a122bc162**
 
 ## Usage
 
@@ -18,7 +18,7 @@ In order to use the scripts for training and prediction, please follow the follo
 - Run prediction script using `python predict_automl.py`
 The resultant accuracy over test data can be observed in the command prompt.
 
-The pretrained models that were used in the training and prediction can be downloaded from [this link](). 
+The pretrained models that were used in the training and prediction can be downloaded from [this link](https://polybox.ethz.ch/index.php/s/W4w72rGXQE8UWqD). 
 
 Make sure to extract the zip and place the two models `AutoML_small` (trained only over the training set) and `AutoML_full` (trained over the combined training and validation set) in the cloned folder and add the specific model you want to test in the `trained_model_folder_path` in `predict_automl.py` script.
 
