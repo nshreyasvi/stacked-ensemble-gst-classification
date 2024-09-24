@@ -5,12 +5,14 @@ from sklearn.metrics import accuracy_score
 import pandas as pd
 import scikitplot as skplt
 
+trained_model_folder_path = 'AutoML_compete_logloss'
+
 df_test = pd.read_csv('Test_20/test_set.csv')
 
 X_test = df_test[df_test.columns[1:]]
 y_test = df_test[df_test.columns[0]]
 
-automl = AutoML(results_path="AutoML_compete_logloss")
+automl = AutoML(results_path=trained_model_folder_path)
 predictions = automl.predict(X_test)
 
 _ = skplt.metrics.plot_confusion_matrix(y_test, predictions, normalize=False)
