@@ -8,7 +8,7 @@ In order to use the scripts for training and prediction, please follow the follo
 - Install dependencies using `pip install -r requirements.txt`
 - Download the dataset (in `.csv` format) and add the `target` variable column into the column with `input` data i.e. combine the two `.csv` files so that the target is the first column and the inputs are the following columns.
 - Run training using `python train_automl.py`.
-- **Optional:** In order to train over the dataset where training and validation set are combined, follow steps 2 and run `python train_automl_full.py`.
+- **Optional:** In order to train over the dataset where training and validation set are combined, follow steps 2 and run `python train_automl_merge_data.py`.
 - Once the model has been trained, you will obtain an `AutoML_1` folder.
 - Carry out prediction by changing the output folder path in the `predict_automl.py` script as well as the CSV file to be used for prediction.
 - Run prediction script using `python predict_automl.py`
