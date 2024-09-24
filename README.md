@@ -82,19 +82,6 @@ Here, the model was trained by splitting the training set 5-fold and 10-fold. Th
 | recall    | 1        |   2.18541e-06 |
 | mcc       | 0.882546 |   0.395613    |
 
-
-#### Metric details with threshold from accuracy metric
-|           |    score |   threshold |
-|:----------|---------:|------------:|
-| logloss   | 0.048552 |  nan        |
-| auc       | 0.994983 |  nan        |
-| f1        | 0.889513 |    0.562864 |
-| accuracy  | 0.978529 |    0.562864 |
-| precision | 0.863976 |    0.562864 |
-| recall    | 0.916605 |    0.562864 |
-| mcc       | 0.878104 |    0.562864 |
-
-
 #### Confusion matrix (at threshold=0.562864)
 |              |   Predicted as 0 |   Predicted as 1 |
 |:-------------|-----------------:|-----------------:|
