@@ -18,7 +18,7 @@ In order to use the scripts for training and prediction, please follow the follo
 - Run prediction script using `python predict_automl.py`
 The resultant accuracy over test data can be observed in the command prompt.
 
-The pretrained models that were used in the training and prediction can be downloaded from [this link](https://polybox.ethz.ch/index.php/s/W4w72rGXQE8UWqD). 
+The pretrained models that were used in the training and prediction can be downloaded from [this link](https://drive.google.com/file/d/1zEhBIv2FXhA9csfmpZP0kGeWyBjgQwO5/view?usp=sharing). 
 
 Make sure to extract the zip and place the two models `AutoML_small` (trained only over the training set) and `AutoML_full` (trained over the combined training and validation set) in the cloned folder and add the specific model you want to test in the `trained_model_folder_path` in `predict_automl.py` script.
 
