@@ -1,6 +1,6 @@
 # Stacked-Ensemble GSTN Modeling and Classification
-The given submission is by **Shreyasvi Natraj** for the GSTN Hackathon on Predictive Modeling and Classification.
 <!--
+The given submission is by **Shreyasvi Natraj** for the GSTN Hackathon on Predictive Modeling and Classification.
 **SHA256 Checksum for uploaded Zip file: 0e28c59d2f2ee43ea6076b154bec03512bc0f5eb62c7217e17b3ef5a122bc162**
 -->
 
